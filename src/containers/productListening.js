@@ -1,8 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import ProductComponet from "./productComponent";
-import { useEffect } from "react";
+import  React, { useEffect } from "react";
 import { setProducts } from "../redux/actions/productActions";
 import axios from "axios";
+
 
 const ProductListening = () => {
   const products = useSelector((state) => state);
