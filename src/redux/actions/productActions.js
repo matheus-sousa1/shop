@@ -13,3 +13,9 @@ export const selectedProduct = (product) => {
     psyload: product,
   };
 };
+
+export const removeSelectedProduct = (product) => {
+  return {
+    type: ActionTypes.REMOVE_SELECTED_PRODUCT,
+  };
+};
